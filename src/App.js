@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Blog from './components/Blog'
 import Nav from './components/Nav'
 
+
 function App() {
     return (
     
