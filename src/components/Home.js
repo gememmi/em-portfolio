@@ -4,8 +4,8 @@ import GenArt from './GenArt';
 function Home() {
     return (
         <div>
-            <h3>Emily Daniels</h3>
-            <h2>STEAM Educator and Fullstack Software Engineer</h2>
+            <h2>Emily Daniels</h2>
+            <h3>STEAM Educator and Fullstack Software Engineer</h3>
             <GenArt />
             
         </div>

@@ -1,0 +1,17 @@
+body {
+    /* font-family: 'Nanum Gothic Coding'; */
+    font-family: 'Frankfurter', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-bar li {
+    list-style-type:none;
+    margin:5px;
+
+}

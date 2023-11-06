@@ -20,9 +20,6 @@ function App() {
             <Route path= "/blog" element= { <Blog />} />
         
         </Routes>
-        <ProjectsContainer />
-        <Resume />
-        <Blog/>
     </div>
     
     )
