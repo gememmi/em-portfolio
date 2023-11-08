@@ -2,16 +2,36 @@ body {
     /* font-family: 'Nanum Gothic Coding'; */
     font-family: 'Frankfurter', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    background-color: #E6EEC1;
+    color: #394E46;
 }
 
-.nav-bar {
+/* .nav-bar {
+ 
+} */
+.nav-bar ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+    border: 2px solid #394E46; 
 }
 
 .nav-bar li {
     list-style-type:none;
-    margin:5px;
+    margin:0 2rem;
+    font-size: 1.5em;
+}
 
+.links {
+    text-decoration: none;
+    color: #394E46;
+}
+.links:hover{
+    color: #B2CFAE;
+    
+}
+
+.name-div {
+    display:flex;
 }
