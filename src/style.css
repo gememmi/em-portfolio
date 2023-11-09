@@ -1,37 +1,46 @@
 body {
-    /* font-family: 'Nanum Gothic Coding'; */
     font-family: 'Frankfurter', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     background-color: #E6EEC1;
     color: #394E46;
 }
 
-/* .nav-bar {
- 
-} */
-.nav-bar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 5px;
+.nav-bar {
     border: 2px solid #394E46; 
 }
-
-.nav-bar li {
-    list-style-type:none;
-    margin:0 2rem;
-    font-size: 1.5em;
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
 }
 
-.links {
+li {
+    list-style: none;
+    margin: 4px 0;
+}
+
+.home-resume {
+    display: flex;
+    justify-content: center;
+}
+
+.home-resume li {
+   margin-right: 4px;
+   padding-left: 4px;
+}
+
+.blog-projects {
+    display: flex;
+    justify-content: center;  
+}
+
+a {
     text-decoration: none;
     color: #394E46;
 }
-.links:hover{
+a:hover{
     color: #B2CFAE;
     
 }
 
-.name-div {
-    display:flex;
-}
+
