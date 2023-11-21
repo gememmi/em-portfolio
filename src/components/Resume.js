@@ -11,7 +11,7 @@ function Resume() {
             <br/>
             <h3>The GIANT Room | <i>Creative Tech Resident</i> | May 2023 - Present</h3>
             <p>New York, New York</p>
-            <p>I formulate STEAM education lesson plans with inherited curriculum as well as on the spot lesson preperation. I have led coding and architecture classes for students ages four to twelve.</p>
+            <p>I formulate STEAM education lesson plans with inherited curriculum as well as on the spot lesson preparation. I have led coding and architecture classes for students ages four to twelve.</p>
             <br/>
             <h3>ESF Summer Camp | <i>Lead Tech Instructor</i> | Summer 2023</h3>
             <p>Bronx, New York</p>

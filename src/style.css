@@ -1,46 +1,33 @@
 body {
-    font-family: 'Frankfurter', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    background-color: #E6EEC1;
-    color: #394E46;
+  font-family: "JetBrains Mono";
+  background-color: #e6eec1;
+  color: #000000; 
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar {
-    border: 2px solid #394E46; 
-}
-ul {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0;
-}
-
-li {
-    list-style: none;
-    margin: 4px 0;
-}
-
-.home-resume {
-    display: flex;
-    justify-content: center;
-}
-
-.home-resume li {
-   margin-right: 4px;
-   padding-left: 4px;
-}
-
-.blog-projects {
-    display: flex;
-    justify-content: center;  
+  /* box-sizing: border-box; */
+  width: 100%;
+  border: 2px solid #394e46;
+  display: flex;
+  /* justify-content: space-around;
+  /* align-items: center; */ 
 }
 
 a {
     text-decoration: none;
-    color: #394E46;
+    color:#000000;
+    border: 2px solid #394e46;
 }
-a:hover{
-    color: #B2CFAE;
-    
+
+a:nth-child(-n+2) {
+color:blue;
+}
+
+a:nth-child(n+3) {
+    color:red;
+    ;
 }
 
 
