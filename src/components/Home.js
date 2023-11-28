@@ -1,6 +1,8 @@
 
-import emily from '../images/emily.jpg'
+import emily from '../images/emily.png'
 import sunsAndClouds from '../images/suns_and_clouds.png'
+import sun from '../images/sunnie.png';
+import clouds from '../images/cloudies.png';
 
 function Home() {
     return (
@@ -11,6 +13,11 @@ function Home() {
             </div>
             <div className="image-div">
                 <img className="emily-image"src={emily} alt="photo of Emily"/>
+                <img src={clouds}/>
+                <img src={clouds}/>
+                <img src={sun}/>
+                <img src={sun}/>
+                <img src={sun}/>
             </div>
             <div clasName="text-div">
                 <h2>Hi, there! I'm Emily</h2>

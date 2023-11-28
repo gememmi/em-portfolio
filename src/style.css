@@ -73,9 +73,17 @@ img {
   justify-content: space-around;
 }
 
+.image-div {
+  position:relative;
+}
+
 .emily-image {
-max-width: 18%;
+position: relative;
+left: 10vw;
+top: 5vh;
+max-width: 22%;
 border-radius: 100%;
+
 }
 
 
