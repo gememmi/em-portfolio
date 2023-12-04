@@ -22,9 +22,8 @@ function Home() {
             </div>
 
             <div className="text-div">
-                <h2>Hi, there! I'm Emily</h2>
+                <h2>Hi, there! I'm Emily.</h2>
                 <h3>I am a full-stack engineer / web dev / educator,</h3>
-                <br></br>
                 <h3>currently residing in Brooklyn, NY.</h3>
             </div> 
             

@@ -70,10 +70,16 @@ a {
   max-height: 80px;
   display: flex;
   justify-content: space-around;
+  
+}
+
+.nav-img img{
+  width:33%;
 }
 
 .home-div {
   position: relative;
+  
 }
 
 .image-div {
@@ -131,6 +137,57 @@ a {
 
 .text-div{
   position:absolute;
-  right:0;
-  bottom:0;
+  right: 2vw;
+  top: 48vh;
+  max-width: 58vw;
+  text-align: end;
+  letter-spacing: .4rem;
+  
 }
+
+.text-div h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.text-div h3 {
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about-div {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.about-text {
+  max-width: 50%;
+  margin-left: 12vw;
+}
+
+.about-text h1 {
+font-size: 52px;
+margin-bottom: 8vh;
+margin-top: 8vh;
+  
+}
+.about-text p {
+  line-height: 3rem;
+  font-size: 24px;
+
+}
+
+.icon-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30vw;
+  margin-top: 18vh;
+  font-size: 40px;
+  
+}
+
+
+

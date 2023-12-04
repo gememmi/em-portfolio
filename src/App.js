@@ -5,6 +5,7 @@ import ProjectsContainer from './components/ProjectsContainer'
 import Contact from './components/Contact'
 import Blog from './components/Blog'
 import Nav from './components/Nav'
+import About from './components/About'
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <div>
         <Nav />
         <Routes >
-            <Route path="/" element= {<Home />} />
+            <Route path="/" element= {<Home/>} />
+            <Route path="/about" element={<About />} />
             <Route path="/resume" element= { <Resume />} />
             <Route path= '/projects' element= { <ProjectsContainer />} />
             <Route path= "/contact" element= { <Contact />} />
