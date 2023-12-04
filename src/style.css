@@ -16,7 +16,7 @@ nav {
   background-color: #b2cfae;
 }
 
-a {
+ .nav-link {
   text-decoration: none;
   color: #000000;
   border: 2px solid #394e46;
@@ -186,6 +186,8 @@ margin-top: 8vh;
   margin-left: 30vw;
   margin-top: 18vh;
   font-size: 40px;
+  color:black;
+  text-decoration: none;
   
 }
 

@@ -24,10 +24,10 @@ function About() {
         </p>
       </div>
       <div className="icon-div">
-        <FaGithubAlt />
-        <GoMail />
-        <FaLinkedin />
-        <FaInstagram />
+        <a href="https://github.com/gememmi"><FaGithubAlt /></a>
+        <a><GoMail /></a>
+        <a href="https://www.linkedin.com/in/em-daniels/" ><FaLinkedin /></a>
+        <a href="https://www.instagram.com/web.emdee"><FaInstagram /></a>
       </div>
     </div>
   );
