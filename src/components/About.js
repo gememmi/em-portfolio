@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FaGithubAlt } from "react-icons/fa6";
 import { GoMail } from "react-icons/go";
 import { FaLinkedin } from "react-icons/fa";
@@ -25,7 +26,7 @@ function About() {
       </div>
       <div className="icon-div">
         <a href="https://github.com/gememmi"><FaGithubAlt /></a>
-        <a><GoMail /></a>
+        <Link to="/contact"><GoMail /></Link>
         <a href="https://www.linkedin.com/in/em-daniels/" ><FaLinkedin /></a>
         <a href="https://www.instagram.com/web.emdee"><FaInstagram /></a>
       </div>

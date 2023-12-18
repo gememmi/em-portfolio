@@ -6,6 +6,7 @@ body {
   padding: 0;
 }
 
+/* NAV BAR */
 nav {
   width: 100%;
   border: 2px solid #394e46;
@@ -16,7 +17,7 @@ nav {
   background-color: #b2cfae;
 }
 
- .nav-link {
+.nav-link {
   text-decoration: none;
   color: #000000;
   border: 2px solid #394e46;
@@ -25,14 +26,19 @@ nav {
 }
 
 .nav-img {
+  margin: 0;
+  padding: 0;
   border: 2px solid #394e46;
   box-sizing: border-box;
   flex-grow: 1;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   max-width: 100%;
-  max-height: 100%;
+  max-height: 80px;
+}
+.nav-img img {
+  width: 33%;
 }
 
 .suns-and-clouds {
@@ -40,6 +46,7 @@ nav {
   max-height: 100%;
 }
 
+/* NAME */
 .name-div {
   background-color: #b2cfae;
   width: 100%;
@@ -64,22 +71,9 @@ nav {
   line-height: normal;
 }
 
-.nav-img {
-  margin: 0;
-  padding: 0;
-  max-height: 80px;
-  display: flex;
-  justify-content: space-around;
-  
-}
-
-.nav-img img{
-  width:33%;
-}
-
+/* LANDING PAGE */
 .home-div {
   position: relative;
-  
 }
 
 .image-div {
@@ -135,14 +129,13 @@ nav {
   height: 20vh;
 }
 
-.text-div{
-  position:absolute;
+.text-div {
+  position: absolute;
   right: 2vw;
   top: 48vh;
   max-width: 58vw;
   text-align: end;
-  letter-spacing: .4rem;
-  
+  letter-spacing: 0.4rem;
 }
 
 .text-div h2 {
@@ -156,10 +149,10 @@ nav {
   font-weight: 600;
 }
 
+/* ABOUT */
 .about-div {
   display: flex;
   justify-content: flex-start;
-  
 }
 
 .about-text {
@@ -168,28 +161,40 @@ nav {
 }
 
 .about-text h1 {
-font-size: 52px;
-margin-bottom: 8vh;
-margin-top: 8vh;
-  
+  font-size: 52px;
+  margin-bottom: 8vh;
+  margin-top: 8vh;
 }
 .about-text p {
   line-height: 3rem;
   font-size: 24px;
-
 }
 
-.icon-div{
+.icon-div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 30vw;
   margin-top: 18vh;
   font-size: 40px;
-  color:black;
-  text-decoration: none;
-  
+}
+.icon-div a {
+  color: #000000;
 }
 
+/* CONTACT */
+.contact-div {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
 
+}
+input {
+  padding: 5px;
+}
