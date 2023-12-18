@@ -29,9 +29,10 @@ function ContactForm() {
     e.preventDefault();
 
     // Call emailjs.sendForm to send the form data
-    emailjs.sendForm('contact_service', 'contact_form', e.target)
+    emailjs.sendForm('contact_service', 'contact_form', form.current)
       .then(function(response) {
         console.log('SUCCESS!', response);
+        console.log('respone data: ', response.status, response.data);
       }, function(error) {
         console.log('FAILED...', error);
       });
